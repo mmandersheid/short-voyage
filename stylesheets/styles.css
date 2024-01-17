@@ -60,7 +60,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid #ffffff;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -152,7 +152,7 @@ header li:last-child a {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:#ffffff;
   display:block;
   text-align:center;
   padding-top:6px;
