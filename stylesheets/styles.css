@@ -118,7 +118,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:300px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -131,7 +131,7 @@ header ul {
   background: #ffffff;
   border-radius:5px;
   border:1px solid #ffffff;
-  width:270px;
+  width:300px;
 }
 
 header li {
@@ -201,7 +201,7 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:300px;
   float:left;
   position:fixed;
   bottom:50px;
