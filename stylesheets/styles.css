@@ -101,7 +101,7 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid #ffffff;
 }
 
 dt {
@@ -128,16 +128,16 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #f4f4f4;
+  background: #ffffff;
   border-radius:5px;
-  border:1px solid #e0e0e0;
+  border:1px solid #ffffff;
   width:270px;
 }
 
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #e0e0e0;
+  border-right:1px solid #ffffff;
   height:40px;
 }
 
@@ -164,7 +164,7 @@ header ul a:hover {
 }
 
 header ul a:active {
-  background-color:#f0f0f0;
+  background-color:#ffffff;
 }
 
 strong {
