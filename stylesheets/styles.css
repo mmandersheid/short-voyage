@@ -60,7 +60,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #ffffff;
+  border-left:1px solid #e5e5e5;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -73,9 +73,9 @@ code, pre {
 
 pre {
   padding:8px 15px;
-  background: #ffffff;
+  background: #f8f8f8;
   border-radius:5px;
-  border:1px solid #ffffff;
+  border:1px solid #e5e5e5;
   overflow-x: auto;
 }
 
@@ -92,16 +92,17 @@ table {
 }
 
 .iframe-container iframe {
+  background-color: transparent;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 200%;
+  height: 175%;
 }
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #ffffff;
+  border-bottom:1px solid #e5e5e5;
 }
 
 dt {
@@ -118,7 +119,7 @@ img {
 }
 
 header {
-  width:300px;
+  width:298px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -128,16 +129,16 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #ffffff;
+  background: #f4f4f4;
   border-radius:5px;
-  border:1px solid #ffffff;
-  width:300px;
+  border:1px solid #e0e0e0;
+  width:270px;
 }
 
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #ffffff;
+  border-right:1px solid #e0e0e0;
   height:40px;
 }
 
@@ -152,7 +153,7 @@ header li:last-child a {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#ffffff;
+  color:#999;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -160,11 +161,11 @@ header ul a {
 }
 
 header ul a:hover {
-  color:#ffffff;
+  color:#999;
 }
 
 header ul a:active {
-  background-color:#ffffff;
+  background-color:#f0f0f0;
 }
 
 strong {
@@ -195,13 +196,13 @@ small {
 
 hr {
   border:0;
-  background:#ffffff;
+  background:#e5e5e5;
   height:1px;
   margin:0 0 20px;
 }
 
 footer {
-  width:300px;
+  width:270px;
   float:left;
   position:fixed;
   bottom:50px;
