@@ -85,20 +85,7 @@ table {
 }
 
 
-.iframe-container {
-  position: relative;
-  width: 100%;
-  padding-top: 100%; /* Example for 16:9 aspect ratio: 9 / 16 = 0.5625 */
-}
 
-.iframe-container iframe {
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 175%;
-}
 th, td {
   text-align:left;
   padding:5px 10px;
@@ -187,7 +174,7 @@ header ul a strong {
 section {
   width:500px;
   float:right;
-  padding-bottom:50px;
+  padding-bottom:0px;
 }
 
 small {

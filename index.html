@@ -16,9 +16,7 @@
     <div class="wrapper">
       <header>
         <h1><a href="index.html">The New Dawn</a></h1>
-        <p>
-          This project is maintained by Matt Mandersheid</a>
-        </p>
+        <p>This project is maintained by Matt Mandersheid</p>
         <ul>
           <li>
             <a href="http://github.com/mmandersheid"
@@ -40,11 +38,14 @@
         <div class="iframe-container">
           <iframe
             id="embeddedIframe"
-            src="https://mmandersheid.github.io/TheNewDawn/about.html"
+            src="about.html"
             frameborder="0"
             scrolling="no"
             onload="resizeIframe(this)"
-          ></iframe>
+            style="width: 100%; height: 475px"
+          >
+            <!-- Adjust height as necessary -->
+          </iframe>
         </div>
       </header>
       <section>
@@ -322,5 +323,14 @@ end
       <footer></footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-  </body>
+
+    <script>
+      function resizeIframe(iframe) {
+          iframe.style.height = iframe.contentWindow.document.documentElement.scrollHeight + 'px';
+      }
+      
+      window.addEventListener('resize', function() {
+          resizeIframe(document.getElementById('embeddedIframe'));
+      });
+      </script>
 </html>
