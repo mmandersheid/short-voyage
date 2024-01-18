@@ -119,11 +119,11 @@ header ul {
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:298px;
+  width:296px;
 }
 
 header li {
-  width:90px;
+  width:100px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
@@ -134,7 +134,7 @@ header li:first-child a {
 }
 
 header li:last-child a {
-  border-radius:0 5px 5px 0;
+  border-radius:0 0px 5px 0;
 }
 
 header ul a {
@@ -162,7 +162,7 @@ strong {
 
 header ul li + li + li {
   border-right:none;
-  width:89px;
+  width:94px;
 }
 
 header ul a strong {
