@@ -4,7 +4,7 @@
     height: 100%;
     max-width: none; /* Adjust as needed or remove if not required */
     margin: auto;
-    padding: 0px;
+    padding: 10px;
     overflow: visible; /* Allow scrolling if content is larger than the container */
     position: relative;
   }
@@ -12,6 +12,7 @@
   .container {
     position: relative;
     width: 100%;
+    left: -18px;
     top: 80px;
     height: 100%;
 }
